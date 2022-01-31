@@ -1,0 +1,21 @@
+.catalog-button {
+  font-family: inherit;
+  background-color: var(--backgroundcolor2);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+  transition: color var(--transition1), box-shadow var(--transition1),
+    background-color var(--transition1);
+  &:hover,
+  &:focus,
+  &-current {
+    background-color: var(--brandcolor);
+    color: var(--whitetextcolor);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+}
