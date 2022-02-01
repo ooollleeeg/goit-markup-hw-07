@@ -15,14 +15,14 @@
   transition: transform var(--transition1);
   padding: 40px;
 }
-.modal-close-icon {
+.close__icon {
   transition: fill var(--transition1);
-  .modal-close:focus &,
-  .modal-close:hover & {
+  .close-btn:focus &,
+  .close-btn:hover & {
     fill: var(--brandcolor);
   }
 }
-.modal-close {
+.close-btn {
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -42,7 +42,7 @@
   }
 }
 
-.modal-text {
+.modal__text {
   text-align: center;
   @include font(20px, 700, 1.15, null);
   color: var(--textcolor);

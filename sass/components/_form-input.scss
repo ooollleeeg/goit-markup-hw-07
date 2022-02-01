@@ -2,7 +2,7 @@
   margin-bottom: 10px;
 }
 
-.form-input {
+.form__input {
   width: 100%;
   height: 40px;
   border: 1px solid var(--modal-bordercolor);
@@ -17,12 +17,12 @@
   }
 }
 
-.input-text {
+.input__text {
   @include font(12px, null, 1.17, 0.01em);
   display: block;
   margin-bottom: 4px;
 }
-.form-text {
+.form__text {
   width: 100%;
   height: 120px;
   border: 1px solid var(--modal-bordercolor);
@@ -40,21 +40,21 @@
     color: var(--placeholder-color);
   }
 }
-.form-textarea {
+.form__textarea {
   margin-bottom: 20px;
 }
 
-.input-wrap {
+.input__wrap {
   position: relative;
 }
-.input-icon {
+.input__icon {
   position: absolute;
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill var(--transition1);
-  .form-input:focus + &,
-  .form-input:hover + & {
+  .form__input:focus + &,
+  .form__input:hover + & {
     fill: var(--brandcolor);
   }
 }

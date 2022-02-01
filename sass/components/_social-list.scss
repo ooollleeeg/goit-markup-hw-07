@@ -1,29 +1,29 @@
-.member-social-list {
+.social-list {
   display: flex;
   justify-content: center;
 }
-.member-social-list-item {
+.social-list__item {
   & + & {
     margin-left: 10px;
   }
 }
-.member-social-link-icon {
+.social__icon {
   width: 20px;
   height: 20px;
   fill: var(--sociallinkcolor);
   transition: fill var(--transition1);
-  .member-social-link:hover &,
-  .member-social-link:focus & {
+  .social__link:hover &,
+  .social__link:focus & {
     fill: var(--whitetextcolor);
   }
 }
-.foot .member-social-link-icon {
+.foot .social__icon {
   fill: var(--whitetextcolor);
 }
-.foot .member-social-link {
+.foot .social__link {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.member-social-link {
+.social__link {
   width: 44px;
   height: 44px;
   background-color: var(--whitetextcolor);

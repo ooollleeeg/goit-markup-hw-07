@@ -8,15 +8,15 @@
   margin-left: -30px;
   margin-top: -30px;
 }
-.customer-list-item {
+.customer__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 6 - 30px);
 }
-.customer-list-item-link-icon {
+.customer__icon {
   fill: currentColor;
 }
-.customer-list-item-link {
+.customer__link {
   display: flex;
   align-items: center;
   justify-content: center;
