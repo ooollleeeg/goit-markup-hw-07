@@ -44,9 +44,7 @@
 
 .modal-text {
   text-align: center;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(20px, 700, 1.15, null);
   color: var(--textcolor);
   margin-bottom: 12px;
 }

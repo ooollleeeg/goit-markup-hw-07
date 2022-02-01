@@ -1,8 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 00.03em;
+  @include font(14px, null, 1.71, 0.03em);
   color: var(--textcolor2);
 }
 .section {
@@ -13,8 +11,7 @@ body {
   color: var(--textcolor);
 }
 .section-title {
-  font-size: 36px;
-  line-height: 1.17;
+  @include font(36px, null, 1.17, null);
   text-align: center;
   color: var(--textcolor);
   margin-bottom: 50px;

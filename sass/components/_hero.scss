@@ -11,11 +11,8 @@
   max-width: 1600px;
   margin: 0 auto;
 }
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+.hero__title {
+  @include font(44px, 900, 1.36, 0.06em);
   text-transform: uppercase;
   max-width: 700px;
   margin-right: auto;

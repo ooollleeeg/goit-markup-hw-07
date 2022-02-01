@@ -52,9 +52,7 @@
   padding-left: 16px;
   color: var(--whitetextcolor);
   background-color: transparent;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
+  @include font(16px, null, 1.25, 0.03em);
   margin-right: 12px;
   transition: border-color var(--transition1);
   outline: none;

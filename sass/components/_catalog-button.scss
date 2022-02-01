@@ -2,10 +2,7 @@
   font-family: inherit;
   background-color: var(--backgroundcolor2);
   cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  letter-spacing: 0.03em;
+  @include font(16px, 500, 1.63, 0.03em);
   border: none;
   border-radius: 4px;
   padding: 6px 22px;

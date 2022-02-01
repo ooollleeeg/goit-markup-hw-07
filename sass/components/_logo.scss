@@ -1,13 +1,11 @@
 .logo-link {
   font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font(26px, 700, 1.19, 0.03em);
+
   color: var(--brandcolor);
 }
 
-.logo-header {
+.logo--header {
   color: var(--textcolor);
 }
 
@@ -18,6 +16,6 @@
   margin-bottom: 20px;
   display: inline-block;
 }
-.logo-footer {
+.logo--footer {
   color: var(--whitetextcolor);
 }
